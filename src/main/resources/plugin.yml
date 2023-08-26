@@ -1,0 +1,4 @@
+name: HookHavenDependencies
+version: '${version}'
+main: net.hookhaven.HookHavenDependencies
+api-version: "1.20"
