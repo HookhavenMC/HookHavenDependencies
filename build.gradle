@@ -25,12 +25,13 @@ repositories {
 
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT"
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "com.github.DebitCardz:mc-chestui-plus:1.1.0"
-    implementation "com.github.vaperion.blade:bukkit:3.0.8"
+    implementation 'com.github.honkling:commando:2.1.2'
     implementation "dev.morphia.morphia:morphia-core:2.3.6"
     implementation "dev.morphia.morphia:morphia-kotlin:2.3.6"
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
 }
 
 def targetJavaVersion = 17
